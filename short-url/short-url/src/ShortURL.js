@@ -24,7 +24,7 @@ export default function ShortURL(){
         <div className="container-md">
             <div className="row">
                 <div className="col-md-6 offset-md-3 border rounded p-4 mt-2 shadow">
-                    <h2 className="text-center m-4">Register User</h2>
+                    <h2 className="text-center m-4">enter URL</h2>
                         <input
                         className="form-control" 
                         label="URL"  
@@ -33,7 +33,7 @@ export default function ShortURL(){
                         value={url} onChange={(e)=> seturl(e.target.value)}/> 
                          <button  
                             type="submit" className="btn btn-outline-primary m-4"
-                            onClick={() =>saveLink()}>Save</button>
+                            onClick={() =>saveLink()}>create Short URL</button>
                 </div>
             </div>
  
